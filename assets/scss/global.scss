@@ -1,0 +1,263 @@
+
+
+.body{
+    background-color: #faf0e6;
+    font-family: $font-face;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu__item{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    font-size: 20px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../image/kike-vega-F2qh3yjz6Jk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.school__title{ 
+    font-size: 50px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    font-family: $font-title;
+    
+}
+.school__name{
+    font-size: 50px;
+    width: 60%;
+    height: 25vh;
+    padding: 5px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #E7ECFF;
+    opacity: 0.8;
+    border-radius: 70px;
+}
+
+
+.programm{
+    margin-top: 50px;
+    width: 100%;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(74, 73, 73);
+   
+}
+.programm__section{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.programm__block{
+    max-width: 35vw;
+    min-height: 40vh;
+    margin: 10px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 3px;
+    background: #fff5f6;
+    position: relative;
+}
+.programm__block:hover{
+    box-shadow: 0 0 15px rgb(239, 198, 198);
+}
+.number{
+    width: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 15px rgb(239, 198, 198);
+    border-radius: 30px;
+}
+.programm__block-text{
+    color: #11141c;
+    padding: 10px;
+    width: 90%;
+}
+
+.programm__block-title{
+    font-size: larger;
+    font-weight: 900;
+    background-color: #E7ECFF;
+    opacity: 0.8;
+   
+}
+
+.arrow{
+    width: 50px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px rgb(239, 198, 198);
+    border-radius: 100px;
+
+}
+
+#format{
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(74, 73, 73);
+    width: 100%;
+}
+
+.format__block{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff5f6;
+    font-size: 25px;
+    min-height: 70vh;
+    box-shadow: 0 0 15px rgb(239, 198, 198);
+    padding: 30px;
+}
+
+.format__block-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 900;
+
+}
+
+
+.block__price{
+    background-color: #fff5f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    min-height: 70vh;
+    box-shadow: 0 0 15px rgb(239, 198, 198);
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: space-around;
+}
+.case{
+    font-style: italic;
+    color: darkgray;
+    text-decoration:underline;
+}
+.case__post{
+    font-size: 15px;
+}
+.block__case{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.cost{
+    font-size: 50px;
+    background-color: #E7ECFF;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.cost__payment{
+    font-size: 18px;
+}
+
+#recording{
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    color: rgb(74, 73, 73);
+    margin-top: 80px;
+}
+
+.btn__form{
+    pointer-events: none;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#link{
+    padding: 40px;
+    display: inline-block;
+    box-shadow: 0 0 25px rgb(235, 185, 185);
+    border-radius: 15px;
+    background-color: gray;
+    font-size: 30px;
+    font-weight: 900;
+}
+#link:hover{
+    box-shadow: 0 0 25px rgb(230, 144, 217);
+}
+.form__politics{
+    margin-top: 10px;
+}
+.form__politics:hover{
+    text-decoration: underline;
+}
+.recording__form{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #fff5f6;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__contacts{
+    text-align: right;
+}
+.telegram{
+    width: 30px;
+}
+.mail{
+    width: 30px;
+}
