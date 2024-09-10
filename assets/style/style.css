@@ -497,6 +497,24 @@ li {
   justify-content: space-around;
 }
 
+.case__block {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.case__link {
+  text-decoration: underline;
+  color: darkgray;
+}
+
+.case__post {
+  font-size: 18px;
+}
+
 .cost {
   font-size: 50px;
   background-color: #E7ECFF;
