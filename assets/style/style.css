@@ -334,6 +334,12 @@ li {
 .menu {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu__item-link:hover {
+  color: #fff5f6;
 }
 
 .menu__item {
@@ -341,40 +347,48 @@ li {
   width: 100%;
   gap: 20px;
   font-size: 20px;
+  justify-content: center;
 }
 
 .home {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-image: url("../image/kike-vega-F2qh3yjz6Jk-unsplash.jpg");
+  align-items: flex-end;
+  background-image: url("../image/vika.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
+  padding-bottom: 100px;
+}
+
+.school {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80%;
 }
 
 .school__title {
-  font-size: 50px;
-  width: 100%;
+  font-size: 60px;
+  width: 80%;
   padding-top: 100px;
-  padding-bottom: 30px;
   display: flex;
   justify-content: center;
-  margin: auto 0;
   font-family: "Marck";
+  margin: 0;
 }
 
 .school__name {
   font-size: 50px;
-  width: 60%;
-  height: 25vh;
-  padding: 5px;
+  min-width: 55%;
+  height: 15vh;
+  margin-right: 120px;
   margin-bottom: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  background-color: #E7ECFF;
+  background-color: #fff5f6;
   opacity: 0.8;
   border-radius: 70px;
 }
@@ -397,14 +411,13 @@ li {
 }
 
 .programm__block {
-  max-width: 35vw;
+  width: 40vw;
   min-height: 40vh;
   margin: 10px;
   font-weight: 900;
   text-align: center;
   border-radius: 3px;
   background: #fff5f6;
-  position: relative;
 }
 
 .programm__block:hover {
@@ -420,8 +433,10 @@ li {
 
 .programm__block-text {
   color: #11141c;
-  padding: 10px;
   width: 90%;
+  text-align: left;
+  margin-left: 10px;
+  word-wrap: break-word;
 }
 
 .programm__block-title {
@@ -454,7 +469,7 @@ li {
   align-items: center;
   background-color: #fff5f6;
   font-size: 25px;
-  min-height: 70vh;
+  min-height: 60vh;
   box-shadow: 0 0 15px rgb(239, 198, 198);
   padding: 30px;
 }
@@ -480,21 +495,6 @@ li {
   font-size: 25px;
   font-weight: 900;
   justify-content: space-around;
-}
-
-.case {
-  font-style: italic;
-  color: darkgray;
-  text-decoration: underline;
-}
-
-.case__post {
-  font-size: 15px;
-}
-
-.block__case {
-  margin-top: 20px;
-  font-size: 18px;
 }
 
 .cost {
@@ -588,6 +588,80 @@ li {
 
 .mail {
   width: 30px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .school__title {
+    font-size: 55px;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .school__name {
+    width: 100%;
+    font-size: 60px;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .school__name {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+  }
+  .school {
+    width: 100%;
+  }
+  .school__title {
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+  }
+  .menu__item {
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+  }
+  .menu__item-link {
+    color: #fff5f6;
+    font-size: 15px;
+  }
+  .programm__section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .programm__block {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .recording__form {
+    text-align: center;
+  }
+  .cost__payment {
+    text-align: center;
+  }
+  .format__block {
+    padding: 0;
+    margin: 0 auto;
+    width: 95%;
+  }
+  .format__block-text {
+    padding: 10px;
+  }
+  .footer {
+    width: 90%;
+  }
+  .btn__form {
+    text-align: center;
+    margin: 15px;
+  }
+  #link {
+    text-align: center;
+    margin: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
