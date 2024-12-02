@@ -124,8 +124,8 @@ li{
 }
 
 .arrow{
-    width: 50px;
-    margin-top: 10px;
+    width: 30px;
+    margin-top: 20px;
     box-shadow: 0 0 15px rgb(239, 198, 198);
     border-radius: 100px;
 
@@ -172,9 +172,28 @@ li{
     margin: 0 auto;
     min-height: 70vh;
     box-shadow: 0 0 15px rgb(239, 198, 198);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
     justify-content: space-around;
+}
+.block__price-two{
+    background-color: #fff5f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    min-height: 70vh;
+    box-shadow: 0 0 15px rgb(239, 198, 198);
+    font-size: 30px;
+    font-weight: 900;
+    justify-content: space-around;
+}
+.price__two-format{
+    width: 80%;
+    font-size: 25px;
 }
 .case__block{
     display: flex;
@@ -201,6 +220,14 @@ li{
 .cost__payment{
     font-size: 18px;
 }
+.cost__payment-two{
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+}
+.info_price-two{
+    font-size: 18px;
+}
 
 #recording{
     font-weight: 800;
@@ -221,31 +248,44 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 #link{
-    padding: 40px;
+    padding: 20px;
     display: inline-block;
     box-shadow: 0 0 25px rgb(235, 185, 185);
     border-radius: 15px;
     background-color: gray;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
+}
+.btn__prodamus{
+    padding: 23px;
+    display: inline-block;
+    box-shadow: 0 0 25px rgb(235, 185, 185);
+    border-radius: 15px;
+    background-color: #E7ECFF;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+.btn__prodamus:hover{
+    box-shadow: 0 0 25px rgb(230, 144, 217);
 }
 #link:hover{
     box-shadow: 0 0 25px rgb(230, 144, 217);
 }
 .form__politics{
     margin-top: 10px;
+    font-size: 15px;
 }
 .form__politics:hover{
     text-decoration: underline;
 }
 .recording__form{
     margin-top: 40px;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .footer{
