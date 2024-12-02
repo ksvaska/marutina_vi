@@ -160,8 +160,6 @@ li{
     font-weight: 900;
 
 }
-
-
 .block__price{
     background-color: #fff5f6;
     display: flex;
@@ -193,7 +191,10 @@ li{
 }
 .price__two-format{
     width: 80%;
-    font-size: 25px;
+    font-size: 20px;
+}
+.two__items{
+    margin-bottom: 10px;
 }
 .case__block{
     display: flex;
@@ -227,6 +228,7 @@ li{
 }
 .info_price-two{
     font-size: 18px;
+    text-align: center;
 }
 
 #recording{

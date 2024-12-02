@@ -515,7 +515,11 @@ li {
 
 .price__two-format {
   width: 80%;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.two__items {
+  margin-bottom: 10px;
 }
 
 .case__block {
@@ -556,6 +560,7 @@ li {
 
 .info_price-two {
   font-size: 18px;
+  text-align: center;
 }
 
 #recording {
